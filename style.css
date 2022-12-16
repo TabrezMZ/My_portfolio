@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap'); 
+
+
+:root {
+    --primary: #398f53;
+    --offgreen: #95ca847d;
+    --dark-gray:#3c4149;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+hr {
+    margin: 2rem 0;
+    color: #000;
+}
+
+.text{
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container {
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 600px;
+}
+
+
+
+.nav {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav .brand {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.433);
+    width: 215px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0rem 0.8rem;
+    font-size: 20px;
+}
+
+.nav li:hover{
+    background-color: rgba(0, 0, 0, 0.433);
+    border-radius: 0.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white
+}
+
+.nav .active {
+    font-weight: bold;
+    color: #000;
+}
+
+.link {
+    box-sizing: border-box; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+  }
+
+.primary-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    min-width: 140px;
+    border-radius: 0.7rem;
+    padding: 0.5rem 2rem;
+}
+
+
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    min-width: 140px;
+    border-radius: 0.7rem;
+    padding: 0.5rem 2rem;
+}
+
+.hero {
+    color: var(--dark-gray);
+    display: block;
+}
+
+.hero img {
+    max-width: 350px;
+    margin:2rem auto;
+    display: block;  
+}
+
+
+.section {
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h2,p {
+    text-align: center;
+}
+
+.offgreen {
+    background-color: var(--offgreen);
+}
+
+.sm-text {
+    margin: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+  
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover{
+    color: #000;
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 5px;
+    border-radius: 4px;
+}
